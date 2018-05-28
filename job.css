@@ -1,0 +1,219 @@
+.img {
+    width: 20%;
+    float: left;
+    transform: translate(35vw);
+    /*лого*/
+}
+
+.contact {
+    float: right;
+    font-size: 2vw;
+    transform: translate(-1vw);
+    /*телефоны*/
+}
+
+header {
+    background: radial-gradient(white, silver);
+    height: 18vw;
+}
+
+/*хедер*/
+
+header a:nth-of-type(2) {
+    float: left;
+    clear: left;
+    font-family: pompadur;
+    font-size: 8vw;
+    color: black;
+    transform: translate(32vw);
+    text-decoration: none;
+    margin-bottom: 0;
+}
+
+/*название компании*/
+
+#menu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+/*меню*/
+
+#menu li {
+    display: block;
+    font-size: 2vw;
+    background: radial-gradient(red, maroon);
+    width: 25%;
+    text-align: center;
+    float: left;
+    color: white;
+    position: relative;
+    outline: 1px solid;
+
+
+
+}
+
+/*список главного меню*/
+
+#menu li:hover {
+    background: linear-gradient(darkred, black);
+    color: white;
+
+}
+
+/*наведение на пункт*/
+
+#menu a {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+/*сслыки в меню*/
+
+#menu a:visited {
+    color: white
+}
+
+/*посещенные ссылки*/
+
+#menu li li {
+    width: 100%;
+}
+
+/*ширина подменю*/
+
+ul ul {
+    display: none;
+
+}
+
+#menu li:hover ul {
+    display: block;
+
+}
+
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: absolute;
+}
+
+/*выпадающее подменю*/
+
+.footer {
+    background-color: black;
+    height: 30vw;
+}
+
+body {
+
+    background: url(images/texturex-brushed-dark-steel-metal-stock-texture-4-500x500.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.contactfoot {
+    float: left;
+    font-size: 2vw;
+    color: white;
+    transform: translate(2vw, 2vw);
+}
+
+
+footer p:nth-of-type(2) {
+    color: white;
+    font-size: 2vw;
+    float: right;
+    transform: translate(-2vw);
+
+}
+
+footer p:nth-of-type(3) {
+    color: white;
+    font-size: 2vw;
+    float: right;
+    transform: translate(-1vw, -1vw);
+}
+
+@font-face {
+    font-family: Pompadur;
+    src: url(11714.ttf);
+}
+
+iframe {
+    width: 45vw;
+    height: 24vw;
+    transform: translate(4vw, 2vw)
+}
+
+hr {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+h2 {
+    color: white;
+    font-size: 3vw;
+}
+
+p {
+    color: white;
+    font-size: 2vw;
+}
+
+
+
+
+
+
+
+form {
+    color: white;
+    font-size: 2vw;
+}
+
+input:nth-of-type(-n+2) {
+    width: 20vw;
+    height: 2vw;
+    font-size: 2vw;
+    background-color: black;
+    color: white;
+    opacity: 0.7;
+}
+
+input:nth-of-type(3) {
+    width: 20vw;
+    height: 4vw;
+    font-size: 2vw;
+    background-color: black;
+    color: white;
+    opacity: 0.7;
+    margin-bottom: 8vw;
+    transform: translateY(-1.5vw)
+}
+
+input:nth-of-type(1) {
+    position: relative;
+    left: 3.8vw;
+}
+
+textarea {
+    width: 40vw;
+    height: 10vw;
+    font-size: 2vw;
+    background-color: black;
+    color: white;
+    opacity: 0.7;
+}
+
+h2 {
+    font-size: 2vw;
+    color: white;
+}

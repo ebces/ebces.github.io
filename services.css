@@ -1,0 +1,170 @@
+.img {
+    width: 20%;
+    float: left;
+    transform: translate(35vw);
+    /*лого*/
+}
+
+.contact {
+    float: right;
+    font-size: 2vw;
+    position: relative;
+    right: 1vw;
+    /*телефоны*/
+}
+
+header {
+    background: radial-gradient(white, silver);
+    height: 18vw;
+}
+
+header a:nth-of-type(2) {
+    float: left;
+    clear: left;
+    font-family: pompadur;
+    font-size: 8vw;
+    color: black;
+    transform: translate(32vw);
+    text-decoration: none;
+    margin-bottom: 0;
+}
+
+#menu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+/*меню*/
+
+#menu li {
+    display: block;
+    font-size: 2vw;
+    background: radial-gradient(red, maroon);
+    width: 25%;
+    text-align: center;
+    float: left;
+    color: white;
+    position: relative;
+    outline: 1px solid;
+
+
+
+}
+
+#menu li:hover {
+    background: linear-gradient(darkred, black);
+    color: white;
+    transition: 1s;
+
+}
+
+/*наведение на пункт*/
+
+#menu a {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+/*сслыки в меню*/
+
+#menu a:visited {
+    color: white
+}
+
+/*посещенные ссылки*/
+
+#menu li li {
+    width: 100%;
+}
+
+/*ширина подменю*/
+
+ul ul {
+    display: none;
+
+}
+
+#menu li:hover ul {
+    display: block;
+
+}
+
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: absolute;
+}
+
+@font-face {
+    font-family: Pompadur;
+
+    src: url(11714.ttf);
+
+}
+
+body {
+
+    background: url(images/texturex-brushed-dark-steel-metal-stock-texture-4-500x500.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+table {
+    color: white;
+    border: 1px solid;
+    width: 100%;
+}
+
+td,
+th {
+    font-size: 2vw;
+    border-bottom: 1px solid;
+}
+
+.footer {
+    background-color: black;
+    height: 30vw;
+}
+
+.contactfoot {
+    float: left;
+    font-size: 2vw;
+    color: white;
+    position: relative;
+    top: 3vw;
+    left: 2vw;
+}
+
+footer p:nth-of-type(2) {
+    color: white;
+    font-size: 2vw;
+    float: right;
+    position: relative;
+    right: 2vw;
+
+}
+
+footer p:nth-of-type(3) {
+    color: white;
+    font-size: 2vw;
+    float: right;
+    position: relative;
+    right: 1vw;
+}
+
+iframe {
+    width: 48vw;
+    height: 24vw;
+    position: relative;
+    top: 2vw;
+    left: 3vw;
+}
+
+hr {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}

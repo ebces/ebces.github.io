@@ -1,0 +1,234 @@
+.img{width: 20%; 
+float: left;
+transform: translate(35vw);                                /*лого*/
+}
+
+.contact{float: right;
+    font-size: 2vw;
+    transform: translate(-1vw);
+                                                /*телефоны*/
+}
+header{background:radial-gradient(white,silver);
+height: 18vw;}                                              /*хедер*/
+
+header a:nth-of-type(2){
+float: left;
+clear: left;
+font-family: pompadur;
+font-size: 8vw;
+color: black;
+transform: translate(32vw);
+text-decoration: none;
+margin-bottom: 0;
+}                                                            /*название компании*/
+
+
+#menu{margin: 0;
+padding: 0;
+list-style-type: none;
+}                                                           /*меню*/
+
+
+#menu li{
+display:block;
+font-size: 2vw;
+background:radial-gradient(red,maroon);
+width: 25%;
+text-align: center;
+float: left;
+color: white;
+position: relative;
+outline: 1px solid;
+
+
+
+}                                                            /*список главного меню*/
+#menu li:hover{
+    background:linear-gradient(darkred,black);
+    color: white;
+    
+}                                                           /*наведение на пункт*/
+#menu a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}                                                            /*сслыки в меню*/
+#menu a:visited{color: white
+}                                                           /*посещенные ссылки*/
+
+#menu li li{width: 100%;
+}                                                            /*ширина подменю*/
+
+ul ul{display: none;
+
+}
+
+#menu li:hover ul{display: block;
+
+}                                                            
+
+
+#menu ul{margin: 0;
+padding: 0;
+list-style-type: none;
+position: absolute;
+}                                                              /*выпадающее подменю*/
+.footer{background-color: black;
+height: 30vw;
+}
+
+body{
+    
+    background: url(images/texturex-brushed-dark-steel-metal-stock-texture-4-500x500.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+.contactfoot{float: left;
+    font-size: 2vw;
+    color: white;
+    transform: translate(2vw, 2vw);
+}
+
+
+footer p:nth-of-type(2){
+    color: white;
+    font-size: 2vw;
+    float: right;
+    transform: translate(-2vw);
+    
+}
+
+footer p:nth-of-type(3){
+    color: white;
+    font-size: 2vw;
+    float: right;
+    transform: translate(-1vw,-1vw);
+}
+   iframe{width: 45vw;
+   height: 24vw;
+   transform: translate(4vw,2vw)
+   }
+   @font-face {
+    font-family: Pompadur; 
+    src: url(11714.ttf); 
+   }
+
+
+
+
+
+
+
+
+input {
+    display: none;
+}
+
+.slider_one,
+.slider_two,
+.slider_three,
+.slider_four,
+.slider_five {
+    display: none;
+}
+
+.slider_prev {
+    width:1vw;
+    border-top: 2vw solid transparent;
+    border-right: 2vw solid white;
+    border-bottom: 2vw solid transparent;
+    display: inline-block;
+    position: absolute;
+    top: 50vw;
+    left:4vw;
+    opacity:0.5;
+}
+.slider_prev:hover{
+    width: 1vw;
+    border-top: 3vw solid transparent;
+    border-right: 3vw solid white;
+    border-bottom: 3vw solid transparent;
+    display: inline-block;
+    position: absolute;
+    top: 50vw;
+    left:5vw;
+    opacity:0.5;
+    transition:0.3s;
+    
+    
+}
+
+.slider_next {
+    width: 1vw;
+    border-top: 2vw solid transparent;
+    border-left: 2vw solid white;
+    border-bottom: 2vw solid transparent;
+    display: inline-block;
+    position: absolute;
+    top: 50vw;
+    left: 92vw;
+    opacity:0.5;
+}
+
+.slider_next:hover{
+    display: inline-block;
+    width: 1vw;
+    border-top: 3vw solid transparent;
+    border-left: 3vw solid white;
+    border-bottom: 3vw solid transparent;
+    position: absolute;
+    top: 50vw;
+    left: 91vw;
+    opacity:0.5;
+    transition:0.3s;
+    
+}
+
+.input_1:checked~div .slider_one,
+.input_2:checked~div .slider_two,
+.input_3:checked~div .slider_three,
+.input_4:checked~div .slider_four,
+.input_5:checked~div .slider_five {
+    display: inline-block;
+    width: 100%;
+    
+}
+
+.pins label {
+    display: inline-block;
+    height: 1vw;
+    width: 1vw;
+    border-radius: 50%;
+    padding: 1vw 1vw;
+    margin: 1vw;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-left: 1vw;
+    position: relative;
+    left: 38vw;
+    bottom:6vw;
+    opacity: 0.5;
+}
+.pins label:hover{
+    background: black;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.input_1:checked~div .pins .pins_one,
+.input_2:checked~div .pins .pins_two,
+.input_3:checked~div .pins .pins_three,
+.input_4:checked~div .pins .pins_four,
+.input_5:checked~div .pins .pins_five {
+    background: black;
+}
+img{
+    width:100%;
+}
+hr {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
